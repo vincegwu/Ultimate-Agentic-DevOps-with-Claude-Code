@@ -1,4 +1,4 @@
-.claude/
+
 
 # Ignore Terraform state and backup files
 terraform/*.tfstate

@@ -67,7 +67,7 @@ resource "aws_s3_bucket_policy" "site" {
 resource "aws_cloudfront_distribution" "site" {
   enabled             = true
   default_root_object = "index.html"
-  price_class         = "PriceClass_200"
+  price_class         = "PriceClass_100"
   comment             = "${var.project_name} static site distribution"
 
   origin {

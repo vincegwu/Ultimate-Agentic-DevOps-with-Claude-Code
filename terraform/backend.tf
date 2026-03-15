@@ -15,12 +15,12 @@
 #
 # ─────────────────────────────────────────────────────────────────────────────
 
-# terraform {
-#   backend "s3" {
-#     bucket         = "berryapp-terraform-state"   # ← replace with your state bucket name
-#     key            = "berryapp/terraform.tfstate"
-#     region         = "eu-north-1"
-#     dynamodb_table = "berryapp-terraform-locks"
-#     encrypt        = true
-#   }
-# }
+terraform {
+  backend "s3" {
+    bucket         = "berryapp-terraform-state"   # ← replace with your state bucket name
+    key            = "berryapp/terraform.tfstate"
+    region         = "eu-north-1"
+    dynamodb_table = "berryapp-terraform-locks"
+    encrypt        = true
+  }
+}
