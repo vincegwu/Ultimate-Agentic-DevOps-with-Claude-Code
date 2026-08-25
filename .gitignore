@@ -1,0 +1,25 @@
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Claude Code local settings / secrets
+.claude/settings.local.json
+.claude/deploy.log
+
+# AWS
+.aws/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
