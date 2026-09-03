@@ -1,0 +1,1 @@
+- [Staged Terraform rollout](project_staged_terraform_rollout.md) — OIDC/IAM CI role + state backend intentionally not yet in terraform/, don't over-flag as CRITICAL.

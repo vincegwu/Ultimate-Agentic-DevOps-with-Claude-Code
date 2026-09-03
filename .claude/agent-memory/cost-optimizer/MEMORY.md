@@ -1,0 +1,1 @@
+- [Terraform Cost Review (Sep 2026)](terraform-review-2026-09-03.md) — S3+CloudFront portfolio site audit; PriceClass_200 downgrade identified
